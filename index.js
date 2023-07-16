@@ -19,17 +19,18 @@ var targetNumber = Math.floor(Math.random() * 20) + 1; // Generate a random numb
             score++;
 
             if (guess === targetNumber) {
-                messageInput.value = 'Congratulations! You guessed the correct number.';
+                messageInput.value = 'Congratulations!';
+                alert("congradulational! you won the game");
                 if (score < highScore || highScore === 0) {
                     highScore = score;
                     highScoreInput.value = '🏅HIGH SCORE: ' + highScore;
                 }
                 score = 0;
                 targetNumber = Math.floor(Math.random() * 20) + 1;
-                mainSection.style.backgroundColor = '#486469'; // Change the background color to green
                 document.getElementById('number').textContent = guess; // Display the correct guessed number
                 document.getElementById('number').style.color = '#486469'; // Change the color to green
-            } else if (guess < targetNumber) {
+            }
+             else if (guess < targetNumber) {
                 messageInput.value = 'Try a higher number.';
             } else {
                 messageInput.value = 'Try a lower number.';
@@ -49,3 +50,4 @@ var targetNumber = Math.floor(Math.random() * 20) + 1; // Generate a random numb
             document.getElementById('number').textContent = '?';
             document.getElementById('number').style.color = 'black'; // Reset the color to black
         }
+        
