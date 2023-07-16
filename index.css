@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    max-width: 100vw;
+    max-height: 100vh;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+}
+
+header {
+    background-color: rgb(156, 202, 199);
+    width:100%;
+    color: white;
+    border: 1px solid white;
+    font-family: 'Tektur', cursive;
+    background-color: rgb(156, 202, 199);
+    padding: 20px;
+}
+
+.heading {
+    text-align: center;
+    font-size: larger;
+    font-weight: 500px;
+}
+
+.playagain {
+    margin: 20px;
+    border: 2px solid transparent;
+}
+
+a {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-family: 'Tektur', cursive;
+}
+
+a:hover {
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+}
+
+.box {
+    margin: auto;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: aliceblue;
+    border-bottom: 2px solid white;
+    position: relative;
+    width: fit-content;
+}
+
+   
+
+.box h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding: 40px;
+    font-family: 'Tektur', cursive;
+}
+
+main {
+    font-family: 'Tektur', cursive;
+    padding: 10px;
+    background-size: 100% 100%;
+}
+
+.left {
+    width: 500px;
+    text-align: center;
+    margin: 20px auto; 
+}
+
+.left input {
+    border: 5px solid rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+}
+
+.check {
+    margin: auto;
+    position: relative;
+
+}
+
+.grades {
+    font-size: 30px;
+    position: relative;
+    margin: 10px;
+}
+
+.message {
+    width: fit-content;
+}
+
+@media screen and (min-width: 768px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html, body {
+        max-width: 100pw;
+        max-height: 100vh;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        position: relative;
+        background-color: rgb(255, 255, 255);
+    }
+
+    header {
+        background-color: rgb(156, 202, 199);
+        color: white;
+        border: 1px solid white;
+        font-family: 'Tektur', cursive;
+    }
+
+    .heading {
+        text-align: center;
+        font-size: larger;
+        font-weight: 500px;
+    }
+
+    .playagain {
+        margin: 20px;
+        border: 2px solid transparent;
+    }
+
+    a {
+        font-size: 30px;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px;
+        color: black;
+        font-family: 'Tektur', cursive;
+    }
+
+    a:hover {
+        padding: 10px;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        border: 1px solid white;
+    }
+
+    .box {
+    margin:auto;/* Center the box horizontally */
+    border: 2px solid rgb(255, 255, 255);
+    background-color: aliceblue;
+    border-bottom: 2px solid white;
+    position: relative;
+    width: fit-content;
+    }
+
+    .box h1 {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 30px;
+        text-align: center;
+        text-decoration: none;
+        padding: 40px;
+        font-family: 'Tektur', cursive;
+    }
+
+    main {
+        font-family: 'Tektur', cursive;
+        padding: 10px;
+        background-size: 100% 100%;
+    }
+
+    .left {
+        width: 300px,auto;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .left input {
+        border: 5px solid rgb(0, 0, 0);
+        padding: 10px;
+        font-size: 40px;
+        position: relative;
+    }
+
+    .check {
+        margin-left: 10px,auto;
+        position: relative;
+    }
+
+    .grades {
+        font-size: 30px;
+        position: relative;
+        margin: 10px;
+    }
+
+    .message {
+        width: fit-content;
+    }
+}
